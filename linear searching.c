@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a[100],n,i,e;
-    printf("\n Enter no. of elements : ");
+    int a[1000],n,i,e;
+    printf("\n Enter number of elements : ");
     scanf("%d",&n);
-    printf("\n Enter array : ");
+    printf("\n Enter the array : ");
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -21,9 +21,9 @@ int main()
         }
         if(i==(n-1))
         {
-            printf("\n Element not found in the array.");
+            printf("\n Element not found in the array!!");
         }
     }
-    printf("\n\n")
-    return 0
+    printf("\n\n");
+    return 0;
 }
