@@ -29,5 +29,5 @@ int main()
         printf("%d ",a[i]);
     }
     printf("\n\n")
-    return 0
+    return 0;
 }
