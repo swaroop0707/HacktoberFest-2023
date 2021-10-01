@@ -28,7 +28,7 @@ int main()
       a[i]=a[add];
       a[add]=temp;
     }
-    printf("\n Your sorted array is : ");
+    printf("\n  this Your sorted array is : ");
     int k;
     for(k=0;k<n;k++)
     {
