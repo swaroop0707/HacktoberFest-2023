@@ -2,7 +2,7 @@
 int main()
 {
     int a[100],n,i;
-    printf("\n Enter size of array : ");
+    printf("\n Enter the  size of array : ");
     scanf("%d",&n);
     printf("\n Enter array : ");
     for(i=0;i<n;i++)
