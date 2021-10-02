@@ -38,8 +38,9 @@ int main()
         {
             if(dist[cur]+1<dist[it])
             {
-                q.push(it);
+              
                 dist[it]=dist[cur]+1;
+                 q.push(it);
             }
         }
     }
