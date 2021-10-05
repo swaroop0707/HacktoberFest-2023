@@ -45,9 +45,9 @@ int main()
         }
     }
 
-    for(int i=0;i<nodes;i++)
+    for(int j=0;j<nodes;j++)
     {
-        cout<<dist[i]<<" ";
+        cout<<dist[j]<<" ";
     }
     return 0;
 }
